@@ -1,8 +1,10 @@
-# totp [![Build Status](https://travis-ci.com/pyramation/totp.svg?branch=master)](https://travis-ci.com/pyramation/totp)
+# learn totp [![Build Status](https://travis-ci.com/pyramation/learn-totp.svg?branch=master)](https://travis-ci.com/pyramation/learn-totp)
 
-TOTP implementation in pure PostgreSQL plpgsql
+Learning repo for HMAC Time-Based One-Time Password Algorithm (TOTP) as specfied in RFC 6238/4226 as pure plpgsql functions.
 
-This extension provides the HMAC Time-Based One-Time Password Algorithm (TOTP) as specfied in RFC 6238/4226 as pure plpgsql functions.
+# Warning
+
+This repo is for going into each step of the algorithm, in order to learn how TOTP works. If you want to use the code in production, use https://github.com/pyramation/totp
 
 # Usage
 
